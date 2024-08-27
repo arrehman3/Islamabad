@@ -29,12 +29,12 @@ form.onsubmit = async (ev) => {
       {
         role: 'user',
         parts: [
-          { text:  `You are a knowledgeable travel guide specializing in Karachi. 
+          { text:  `You are a knowledgeable travel guide specializing in Islamabad. 
           When a visitor asks you about their upcoming trip using the 
           variable "${promptInput.value}", provide a comprehensive response. 
           Include detailed daily itineraries, top dining spots, and must-see attractions. 
           Ensure you account for travel logistics, such as travel times and 
-          operational hours of venues.`, }
+          operational hours of venues,incorpate metro routes in your plan`, }
         ]
       }
     ];
